@@ -13,6 +13,7 @@ header {
 
 header a{
     color: white;
+    font-size: 0.8em;
 }
 
 header a:hover{
@@ -53,4 +54,52 @@ header img{
 
 .unit2{
     background: rgba(0, 0, 0, 1);
+}
+
+@media screen and (min-width:1100px){
+    .menu_icon{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .desktop-menu{
+        display: none;
+    }
+}
+
+.mobile-menu {
+    background: rgba(0, 0, 0, 0.5);;
+    right: -20em;
+    height: 100%;
+    position: fixed;
+    width: 20em;
+    top:-0.1em
+}
+
+.mobile-menu li {
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 1em;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu_icon{
+    text-align: right;
+    vertical-align: middle;
+    margin:0;
+}
+
+.menu_icon img{
+    height: 4em;
+    width: auto;
+}
+
+header .col-md-4{
+    width: auto;
 }
