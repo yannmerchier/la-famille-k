@@ -37,14 +37,14 @@ header img{
 
 .banner{
     overflow: hidden;
-    height: 30em;
+    /* height: 30em; */
     padding-left: 0;
     padding-right: 0;
 }
 
 .banner img{
     max-width: 100%;
-    transform: translate(0,-30%);
+    /* transform: translate(0,-30%); */
 }
 
 .unit1{
