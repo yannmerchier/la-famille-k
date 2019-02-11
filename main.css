@@ -2,9 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.wine-cat img{
-    max-width:100%;
-}
 
 header {
     padding: 1em 0;
@@ -49,10 +46,6 @@ header img{
 }
 
 .unit1{
-    background: rgba(247, 237, 228, 1);
-}
-
-.unit2{
     background: rgba(0, 0, 0, 1);
 }
 
