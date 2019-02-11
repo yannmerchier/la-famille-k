@@ -1,98 +1,98 @@
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
-
 
 header {
-    padding: 1em 0;
-    background: rgba(0, 0, 0, 0.8);
+  padding: 20px 0;
 }
 
-header a{
-    color: white;
-    font-size: 0.8em;
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
 }
 
-header a:hover{
-    text-decoration: none;
-    color: white;
+header h1 {
+  font-weight: 700;
+  margin: 0;
 }
 
-header h1{
-    margin:0;
+header nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
-header li{
-    display: inline-block;
-    padding-right: 1em;
-    padding-left: 1em;
-    color:white;
+header p {
+  padding: 0 20px;
+  margin: 0;
 }
 
-header img{
-    width: 1em;
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('vignes.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.banner{
-    overflow: hidden;
-    /* height: 30em; */
-    padding-left: 0;
-    padding-right: 0;
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
 }
 
-.banner img{
-    max-width: 100%;
-    /* transform: translate(0,-30%); */
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
 }
 
-.unit1{
-    background: rgba(0, 0, 0, 1);
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
 }
 
-@media screen and (min-width:1100px){
-    .menu_icon{
-        display: none;
-    }
+.col-md-6 {
+  margin: 0 0 30px;
 }
 
-@media screen and (max-width:1100px){
-    .desktop-menu{
-        display: none;
-    }
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #EA5E3D;
 }
 
-.mobile-menu {
-    background: rgba(0, 0, 0, 0.5);;
-    right: -20em;
-    height: 100%;
-    position: fixed;
-    width: 20em;
-    top:-0.1em
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
 }
 
-.mobile-menu li {
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-left: 20px;
-  padding-top: 1em;
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
 }
 
-.mobile-menu a {
-  text-decoration: none;
-  text-transform: uppercase;
+footer {
+  font-size: 12px;
+  padding: 20px 0;
 }
 
-.menu_icon{
-    text-align: right;
-    vertical-align: middle;
-    margin:0;
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.menu_icon img{
-    height: 4em;
-    width: auto;
+footer ul {
+  list-style: none;
 }
 
-header .col-md-4{
-    width: auto;
+footer li img {
+  width: 32px;
+  height: 32px;
 }
