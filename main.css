@@ -5,6 +5,7 @@ body {
 
 header {
   padding: 20px 0;
+  font-size: 1.2rem;
 }
 
 header .row,
@@ -16,6 +17,7 @@ footer .row {
 header h1 {
   font-weight: 700;
   margin: 0;
+  font-size: 2em;
 }
 
 header nav {
@@ -30,6 +32,18 @@ header p {
 
 header img{
     max-width: 2em;
+}
+
+@media screen and (max-width:1200px){
+    html{
+        font-size:0.5em;
+    }
+}
+
+@media screen and (max-width:1000px){
+    header nav p{
+        display: none;
+    }
 }
 
 .jumbotron {
