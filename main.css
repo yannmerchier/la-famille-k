@@ -4,14 +4,19 @@ body {
 }
 
 header {
-  padding: 20px 0;
+  padding: 0.5em 0;
   font-size: 1.2rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
 }
 
 header .row,
 footer .row {
   display: flex;
   align-items: center;
+  padding: 1em;
 }
 
 header h1 {
@@ -31,7 +36,8 @@ header p {
 }
 
 header img{
-    max-width: 2em;
+    max-width: 3em;
+    padding-left:1em;
 }
 
 @media screen and (max-width:1200px){
@@ -66,6 +72,10 @@ header img{
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
+}
+
+section{
+    padding-top: 2em;
 }
 
 section .row img {
