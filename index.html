@@ -7,7 +7,8 @@
         <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script type="text/javascript" src="app.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script src="js/jquery.simpleAccordion.min.js"></script>
     </head>
     <body>
 
@@ -15,41 +16,55 @@
         <div class="row">
             <img src="Logo_Orange.png">
             <nav class="col-sm-9 text-right">
-               <p>Accueil</p>
-               <p>Nos Vins</p>
-               <p>Où nous trouver</p>
-               <p>Qui sommes nous</p>
-               <!-- <a class="btn btn-primary" href="#" role="button">Commander</a> -->
+               <a href="#">Accueil</a>
+               <a href="#">Nos Vins</a>
+               <a href="#">Où nous trouver</a>
+               <a href="#">Qui sommes nous</a>
+               <!-- <a class="btn btn-wineColor" href="#" role="button">White</a> -->
             </nav>
         </div>
   </header>
  <div class="container content">
-     <div class="wineSection">
-         <li><a href="#" class="wine1">L'héritière</a></li>
-         <p>vin du pays du Beaujolais</p>
-         <p>structuré - rond - fruité</p>
-         <p>75 cl - 13% Vol</p>
-         <p>Mise en bouteille par la Famille K</p>
-         <p>Produit de France</p>
-         <a class="btn btn-primary" href="#" role="button">Commander</a>
+     <div class="wineSection1 ui-accordion-item">
+         <a href="#" class="wine1 ui-accordion-trigger">L'héritière</a>
+         <ul class="ui-accordion-content">
+             <li>vin du pays du Beaujolais</li>
+             <li>structuré - rond - fruité</li><br>
+             <li>75 cl - 13% Vol</li>
+             <li>Mise en bouteille par la Famille K<br>
+             au pays du Beaujolais</li><br>
+             <li>Produit de France</li>
+             <a class="btn btn-primary" href="#" role="button">Commander</a>
+         </ul>
      </div>
-     <li><a href="#" class="wine2">La Grande Dame</a></li>
+     <div class="wineSection2 ui-accordion-item">
+         <a href="#" class="wine2 ui-accordion-trigger">La Grande Dame</a>
+         <ul class="ui-accordion-content">
+             <li>vin du pays du Beaujolais</li>
+             <li>structuré - rond - fruité</li><br>
+             <li>75 cl - 13% Vol</li>
+             <li>Mise en bouteille par la Famille K<br>
+             au pays du Beaujolais</li><br>
+             <li>Produit de France</li>
+             <a class="btn btn-primary" href="#" role="button">Commander</a>
+         </ul>
+     </div>
      <li><a href="#" class="wine3">Le Patriarche</a></li>
  </div>
   <footer class="container">
     <div class="row">
       <p class="col-sm-4">
         Mentions Légales - Crédits
-      </p>
+      </a>
       <ul class="col-sm-8">
         <li class="col-sm-1">
-        <img src="twitter_icon.png">
+            <a href="#"><img src="twitter_icon.png"></a>
         </li>
         <li class="col-sm-1">
-          <img src="facebook_icon.png">
+            <a href="#"><img src="facebook_icon.png"></a>
         </li>
         <li class="col-sm-1">
-        <img src="instagram_icon.png">
+            <a href="#"><img src="instagram_icon.png"></a>
         </li>
       </ul>
     </div>
