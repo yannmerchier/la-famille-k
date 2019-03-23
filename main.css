@@ -6,22 +6,23 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   min-height: 100%;
+  color:#563403;
 
 }
 
-html,body {
+body {
     background: url(HERITIERE.png) no-repeat center center fixed;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
+    transition: background 2s linear;
 }
 
 header {
   padding: 0.5em 0;
   font-size: 1.4rem;
   width: 100%;
-  z-index: 1;
   color:#EA5E3D
 }
 
@@ -44,9 +45,17 @@ header nav {
   height: 5em;
 }
 
-header p {
+header a {
   padding: 0 20px;
   margin: 0;
+  color: #EA5E3D;
+  text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color:#EA5E3D
 }
 
 header img{
@@ -56,10 +65,12 @@ header img{
 
 .content{
     height:26em;
+    margin-left: 7em;
 }
 
 li {
     list-style: none;
+    margin-top: 0.3em;
 }
 
 .content a {
@@ -73,19 +84,36 @@ li {
     text-decoration: none;
 }
 
-.wineSection p{
+.wineSection1 li{
     padding-left: 4em;
     font-size: 0.8em;
 }
 
 .btn.btn-primary {
-  border-radius: 2px;
+  border-radius: 1em;
   border: 0px;
   color: #ffffff;
   text-shadow: none;
   background-color: #EA5E3D;
   margin-left: 3em;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
 }
+
+.btn.btn-primary:hover {
+    font-weight: normal;
+}
+
+.ui-accordion-content { display:none; }
+.active > .ui-accordion-content { display:block; }
+
+/* .btn.btn-wineColor {
+  border-radius: 6em;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #eccd13;
+} */
 
 footer {
   font-size: 12px;
