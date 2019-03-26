@@ -25,5 +25,25 @@ $(".wine2").click(function () {
 $(".wine3").click(function () {
     $('body').css("background-image", "url(PATRIARCHE.png)");
 });
+$('.pane1').click(function () {
+    $('.submenu1').animate({
+        right: '0em'
+    }, 700);
+});
+$('.backArrow1').click(function () {
+    $('.submenu1').animate({
+        right: '-30em'
+    }, 700);
+});
+$('.pane2').click(function () {
+    $('.submenu2').animate({
+        right: '0em'
+    }, 700);
+});
+$('.backArrow2').click(function () {
+    $('.submenu2').animate({
+        right: '-50em'
+    }, 700);
+});
 };
 $(document).ready(main);
