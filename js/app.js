@@ -16,11 +16,9 @@ var main = function () {
     });
 $(".wine1").click(function () {
     $('body').css("background-image", "url(HERITIERE.png)");
-    $('.content').stop().simpleAccordion();
 });
 $(".wine2").click(function () {
     $('body').css("background-image", "url(LA_GRANDE_DAME.png)");
-    $('.content').stop().simpleAccordion();
 });
 $(".wine3").click(function () {
     $('body').css("background-image", "url(PATRIARCHE.png)");
