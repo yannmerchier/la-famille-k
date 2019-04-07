@@ -9,6 +9,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
         <script src="js/jquery.simpleAccordion.min.js"></script>
+        <script src="js/slider.js"></script>
         <script>
 	           $(document).ready(function() {
                $('.content').simpleAccordion();
@@ -19,79 +20,34 @@
 
     <header>
         <div class="row">
-            <img src="Logo_Orange.png">
+            <a href="index.html"><img src="img/Logo_Orange.png"></a>
             <nav class="col-sm-9 text-right">
-                <a href="#">Nos Vins</a>
-               <a href="#" class="pane1">Qui Sommes Nous?</a>
-               <a href="#" class="pane2">Où sommes nous?</a>
-               <a href="#">Blog</a>
-               <a class="btn btn-primary" href="#" role="button">Commander</a>
+                <a href="wine.html">Nos Vins</a>
+                <a href="who.html" class="pane1">Qui Sommes Nous?</a>
+                <a href="#" class="pane2">Où sommes nous?</a>
+                <a href="#">Blog</a>
+                <a class="btn btn-primary" href="#" role="button">Commander</a>
             </nav>
         </div>
   </header>
- <div class="container content">
-     <div class="wineSection1 ui-accordion-item">
-         <a href="#" class="wine1 ui-accordion-trigger">L'héritière</a>
-         <ul class="ui-accordion-content">
-             <li>vin du pays du Beaujolais</li>
-             <li>structuré - rond - fruité</li><br>
-             <li>75 cl - 13% Vol</li>
-             <li>Mise en bouteille par la Famille K<br>
-             au pays du Beaujolais</li><br>
-             <li>Produit de France</li>
-         </ul>
-     </div>
-     <div class="wineSection2 ui-accordion-item">
-         <a href="#" class="wine2 ui-accordion-trigger">La Grande Dame</a>
-         <ul class="ui-accordion-content">
-             <li>vin du pays du Beaujolais</li>
-             <li>structuré - rond - fruité</li><br>
-             <li>75 cl - 13% Vol</li>
-             <li>Mise en bouteille par la Famille K<br>
-             au pays du Beaujolais</li><br>
-             <li>Produit de France</li>
-         </ul>
-     </div>
-     <div class="wineSection3 ui-accordion-item">
-         <a href="#" class="wine3 ui-accordion-trigger">Le Patriarche</a>
-         <ul class="ui-accordion-content">
-             <li>vin du pays du Beaujolais</li>
-             <li>structuré - rond - fruité</li><br>
-             <li>75 cl - 13% Vol</li>
-             <li>Mise en bouteille par la Famille K<br>
-             au pays du Beaujolais</li><br>
-             <li>Produit de France</li>
-         </ul>
-     </div>
- </div>
- <div class="submenu1">
-     <a href="#" class="backArrow1">
-         <img src="right_arrow_right.png">
-      </a>
-     <h1>La Famille K</h1>
-     <p>La Famille K, Marianne, Benoît et Jeanne, c’est avant tout l’histoire d’une famille
-        de parisiens illustre – ou presque- , cultivant le noble terroir du Beaujolais avec passion et dévouement. Une quête de sens et de paysage qui avaient commencé
-        par notre mariage à Saint Amour, continué en Argentine et en Nouvelle Zélande pendant un long tour du monde, pour finir à Morancé, en plein cœur du pays des Pierres Dorées<br><br>
-        C’est donc avec beaucoup envie que nous avons pris la direction d’un domaine de 12h en 2018 pour réaliser leur vision : participer à redorer l’image des vins du Beaujolais sans prétention, et prouver que le vin bon et bien fait peut-être accessible à tous.
-        <br><br>
-        Nous cédons à la mode dans la mesure où nous aimons les vins sans pesticides
-        et sans dogmatisme (les deux nuisant gravement à la santé), donc pas de produits
-        de synthèse, des moyens techniques performants (pressoir pneumatiques) mais aussi un peu de sulfites, pour protéger nos vins.<br><br>
-        Nos personnalités s’expriment dans le nom de nos cuvées :<br><br>
-        l’Héritière, incarnée par Jeanne, un joli jus frais et acidulé de 2 ans et demi<br><br>
-        La Mère, Marianne donc, de la gourmandise et du fruit mais la structure est là, l’âme et le cœur du domaine<br><br>
-        Le Père, Benoit, les bras du Domaine, mais pas trop musclés les bras pour laisser le vin s’exprimer<br><br>
-        Les amis de la Famille compte aussi Christian, notre maitre tailleur, Georges, l’ancien vigneron qui nous guide sans en avoir l’air et Jean-François, le palais expert
-        du Beaujolais.</p>
-</div>
-<div class="submenu2">
-    <a href="#" class="backArrow2">
-        <img src="right_arrow_right.png">
-     </a>
-    <h1>Le Domaine</h1>
-    <p>Un domaine familial dans le sud la Bourgogne et plus précisément dans le Beaujolais, au pays des Pierres dorées. 12 hectares de terroirs argilo-calcaire ou argileux limoneux, plantés en gamay et chardonnay les cépages rois de l’appellation Beaujolais, mais aussi en pinot gris et Gamaret.</p>
-    <iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=193%20chemin%20de%20Biers%2069380%20Ch%C3%A2tillon&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0"></iframe>
-</div>
+  <div class="slider container">
+
+      <div class="slide active-slide">
+              <img class="img-responsive center-block" src="img/gamme_rouge.png"/>
+      </div>
+      <div class="slide">
+              <img class="img-responsive center-block" src="img/gamme_blanche.png"/>
+      </div>
+  </div>
+
+  <div class="slider-nav container">
+      <a href="#" class="arrow-prev"><img src="img/left_arrow_right.png"></a>
+      <ul class="slider-dots">
+          <li class="dot active-dot">&bull;</li>
+          <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="img/right_arrow_right.png"></a>
+  </div>
   <footer class="container">
     <div class="row">
       <p class="col-sm-4">
@@ -99,7 +55,7 @@
       </a>
       <ul class="col-sm-8">
         <li class="col-sm-1">
-            <a target="_blank" href="https://instagram.com/domainelafamillek?utm_source=ig_profile_share&igshid=1qwcnzzb0ia4a"><img src="instagram_icon.png"></a>
+            <a target="_blank" href="https://instagram.com/domainelafamillek?utm_source=ig_profile_share&igshid=1qwcnzzb0ia4a"><img src="img/instagram_icon.png"></a>
         </li>
       </ul>
     </div>
