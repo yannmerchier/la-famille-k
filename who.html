@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>La Famille K</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script src="js/jquery.simpleAccordion.min.js"></script>
+        <script src="js/slider.js"></script>
+        <script>
+	           $(document).ready(function() {
+               $('.content').simpleAccordion();
+	           });
+        </script>
+    </head>
+    <body>
+
+    <header>
+        <div class="row">
+            <a href="index.html"><img src="img/Logo_Orange.png"></a>
+            <nav class="col-sm-9 text-right">
+                <a href="wine.html">Nos Vins</a>
+                <a href="who.html" class="pane1">Qui Sommes Nous?</a>
+                <a href="#" class="pane2">Où sommes nous?</a>
+                <a href="#">Blog</a>
+                <a class="btn btn-primary" href="#" role="button">Commander</a>
+            </nav>
+        </div>
+  </header>
+  <div class="slider container">
+
+      <div class="slide active-slide">
+              <img class="img-responsive center-block" src="img/who_1.jpg"/>
+      </div>
+      <div class="slide">
+              <img class="img-responsive center-block" src="img/who_2.jpg"/>
+      </div>
+      <div class="slide">
+              <img class="img-responsive center-block" src="img/who_3.jpg"/>
+      </div>
+  </div>
+
+  <div class="slider-nav container">
+      <a href="#" class="arrow-prev"><img src="img/left_arrow_right.png"></a>
+      <ul class="slider-dots">
+          <li class="dot active-dot">&bull;</li>
+          <li class="dot">&bull;</li>
+          <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="img/right_arrow_right.png"></a>
+  </div>
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">
+        Nobody reads this
+      </a>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+            <a target="_blank" href="https://instagram.com/domainelafamillek?utm_source=ig_profile_share&igshid=1qwcnzzb0ia4a"><img src="img/instagram_icon.png"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
