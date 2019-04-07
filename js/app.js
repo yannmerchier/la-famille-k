@@ -15,13 +15,13 @@ var main = function () {
         $('.banner').blur();
     });
 $(".wine1").click(function () {
-    $('body').css("background-image", "url(HERITIERE.png)");
+    $('body').css("background-image", "url(img/HERITIERE.png)");
 });
 $(".wine2").click(function () {
-    $('body').css("background-image", "url(LA_GRANDE_DAME.png)");
+    $('body').css("background-image", "url(img/LA_GRANDE_DAME.png)");
 });
 $(".wine3").click(function () {
-    $('body').css("background-image", "url(PATRIARCHE.png)");
+    $('body').css("background-image", "url(img/PATRIARCHE.png)");
 });
 $('.pane1').click(function () {
     $('.submenu1').animate({
