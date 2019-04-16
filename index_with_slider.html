@@ -8,7 +8,6 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script type="text/javascript" src="js/app.js"></script>
-        <script type="text/javascript" src="js/app2.js"></script>
         <script src="js/jquery.simpleAccordion.min.js"></script>
         <script src="js/slider.js"></script>
         <script>
@@ -25,26 +24,30 @@
             <nav class="col-sm-9 text-right">
                 <a href="wine.html">Nos Vins</a>
                 <a href="who.html" class="pane1">Qui Sommes Nous?</a>
-                <a href="where.html" class="pane2">Où sommes nous?</a>
+                <a href="#" class="pane2">Où sommes nous?</a>
                 <a href="#">Blog</a>
                 <a class="btn btn-primary" href="#" role="button">Commander</a>
             </nav>
         </div>
   </header>
-    <div class="container">
-        <div class="wines col-sm-6">
-            <img class="bottle3" src="img/patriarche_bottle.png">
-            <img class="bottle2" src="img/grande_dame_bottle.png">
-            <img class="bottle1" src="img/heritiere_bottle.png">
-        </div>
-        <div class="desc col-sm-6">
-            <h1>La Gamme Rouge</h1>
-            <p>La Famille K, Marianne, Benoît et Jeanne, c’est avant tout l’histoire d’une famille
-                de parisiens illustre – ou presque- , cultivant le noble terroir du Beaujolais avec passion et dévouement. Une quête de sens et de paysage qui avaient commencé
-                par notre mariage à Saint Amour, continué en Argentine et en Nouvelle Zélande pendant un long tour du monde, pour finir à Morancé, en plein cœur du pays des Pierres Dorées
-                C’est donc avec beaucoup envie que nous avons pris la direction d’un domaine de 12h en 2018 pour réaliser leur vision : participer à redorer l’image des vins du Beaujolais sans prétention, et prouver que le vin bon et bien fait peut-être accessible à tous.</p>
-        </div>
-    </div>
+  <div class="slider container">
+
+      <div class="slide active-slide">
+              <img class="img-responsive center-block" src="img/gamme_rouge.png"/>
+      </div>
+      <div class="slide">
+              <img class="img-responsive center-block" src="img/gamme_blanche.png"/>
+      </div>
+  </div>
+
+  <div class="slider-nav container">
+      <a href="#" class="arrow-prev"><img src="img/left_arrow_right.png"></a>
+      <ul class="slider-dots">
+          <li class="dot active-dot">&bull;</li>
+          <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next"><img src="img/right_arrow_right.png"></a>
+  </div>
   <footer class="container">
     <div class="row">
       <p class="col-sm-4">
