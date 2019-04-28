@@ -181,6 +181,7 @@ footer ul {
   list-style: none;
 }
 
-footer li img {
+footer ul img {
   max-width: 4em;
+  margin-right: 1em;
 }
