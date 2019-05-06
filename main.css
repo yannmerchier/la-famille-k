@@ -21,7 +21,7 @@ body {
 
 header {
   padding: 0.5em 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   width: 100%;
   color:#EA5E3D
 }
@@ -68,7 +68,7 @@ header img{
 .desc{
     bottom:-1em;
     opacity: 0;
-    margin-top: 2em;
+    /* margin-top: 2em; */
 }
 
 .white_desc{
@@ -91,16 +91,12 @@ header img{
   background-color: #EA5E3D;
   margin-left: 3em;
   margin-top: -0.5em;
-  margin-bottom: 2.4em;
+  margin-bottom: 3em;
   margin-right: 1em;
 }
 
 .btn.btn-primary:hover {
     font-weight: normal;
-}
-
-.famille{
-    background-color: white;
 }
 
 .famille img{
