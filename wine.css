@@ -21,7 +21,7 @@ body {
 
 header {
   padding: 0.5em 0;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   width: 100%;
   color:#EA5E3D
 }
@@ -87,8 +87,12 @@ li {
 }
 
 .ui-accordion-content li{
-    padding-left: 4em;
+    padding-left: 1em;
     font-size: 0.8em;
+}
+
+.wineTitle{
+    font-size: 1.5em;
 }
 
 .btn.btn-primary {
@@ -99,7 +103,8 @@ li {
   background-color: #EA5E3D;
   margin-left: 3em;
   margin-top: -0.5em;
-  margin-bottom: 2.4em;
+  margin-bottom: 3em;
+  margin-right: 1em;
 }
 
 .btn.btn-primary:hover {

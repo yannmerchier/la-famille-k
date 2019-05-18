@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  min-height: 100%;
+  color:#563403;
+
+}
+
+body {
+    background: url(img/FAMILLEK_WEBSITE_PATRIARCHE_BACKGROUND.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    transition: background 2s linear;
+}
+
+header {
+  padding: 0.5em 0;
+  font-size: 1.4rem;
+  width: 100%;
+  color:#EA5E3D
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 2em;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 5em;
+}
+
+header a {
+  padding:0 1em;
+  margin: 0;
+  color: #EA5E3D;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color:#EA5E3D
+}
+
+header img{
+    max-width: 20em;
+    padding-left:5em;
+}
+
+.container-fluid{
+    padding-left: :2em;
+    padding-right: :2em;
+    margin-bottom: 4em;
+}
+
+.col-sm-7{
+    background-color: white;
+    height:30em;
+    max-height: 100%;
+}
+
+.container-fluid img{
+    max-height: 30em;
+}
+
+.col-sm-5{
+    padding-left: 0;
+}
+
+.btn.btn-primary {
+  border-radius: 1em;
+  border: 0px;
+  color: #ffffff;
+  text-shadow: none;
+  background-color: #EA5E3D;
+  margin-left: 3em;
+  margin-top: -0.5em;
+  margin-bottom: 3em;
+  margin-right: 1em;
+}
+
+.btn.btn-primary:hover {
+    font-weight: normal;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  color: white;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul img {
+  max-width: 4em;
+  margin-right: 1em;
+}

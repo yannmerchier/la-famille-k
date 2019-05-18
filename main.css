@@ -108,6 +108,7 @@ header img{
     left:-40em;
     top:2em;
     position: relative;
+    padding-left: 2em;
 }
 
 .Whitewines img{
@@ -115,6 +116,7 @@ header img{
     right:-50em;
     top:2em;
     position: relative;
+    padding-right: 2em;
 }
 
 footer {
