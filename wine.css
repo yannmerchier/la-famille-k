@@ -65,6 +65,10 @@ header img{
     padding-left:5em;
 }
 
+.container{
+    display: inline-block;
+}
+
 .content{
     height:26em;
     margin-left: 7em;
@@ -84,6 +88,18 @@ li {
 .content a:hover{
     font-weight: bold;
     text-decoration: none;
+}
+
+.red{
+    color:#722f37;
+}
+
+.white{
+    color: #d4c52d;
+}
+
+.whiteWines{
+    text-align: right;
 }
 
 .ui-accordion-content li{
@@ -111,10 +127,14 @@ li {
     font-weight: normal;
 }
 
+.content .btn.btn-primary{
+    margin: 1em;
+}
+
 .ui-accordion-content { display:none; }
 .active > .ui-accordion-content { display:block; }
 
-.submenu1 {
+/* .submenu1 {
     background: rgba(0, 0, 0, 0.8);;
     right: -30em;
     height: 100%;
@@ -164,12 +184,7 @@ li {
 .submenu2 p{
     padding: 2em;
     font-size: 0.8em;
-}
-
-iframe{
-    text-align: center;
-    margin-left: 10em;
-}
+} */
 
 footer {
   font-size: 12px;
