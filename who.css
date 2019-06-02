@@ -70,9 +70,13 @@ header img{
 }
 
 .container-fluid .col-sm-8{
-    background-color: white;
+    /* background-color: white; */
     height:30em;
     max-height: 100%;
+}
+
+.version1{
+    background-color: white;
 }
 
 .container-fluid img{
